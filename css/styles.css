@@ -1,0 +1,1044 @@
+/* COLOR REFERENCE  */
+/*  color: #43ABE2; /* BABY BLUE */
+/*  color: #F5F5F5; /* VERY LIGHT GREY */
+/*  color: #e2dede; /* LIGHT/MEDIUM GREY */
+/*  color: #A8A9AC; /* DARK GREY */
+/*  color: #DF4558; /* RED */
+/*  color: #FBC9C8; /* LIGHT TINT OF RED */
+/*  color: #1A82BF; /* DARKER BLUE */
+
+body { 
+  font-size: 16px;
+  color: #fff;
+  background-color: #e2dede;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+/* HEADER */
+/* HEADER */
+
+#navbar-header {
+  margin: 0px;
+}
+
+/* Targets the entire naviation bar background at the top */
+#header-nav {
+	background-color: #f5f5f5;
+	border-radius: 0;
+	border: 0;
+  padding: 0px;
+}
+
+/*** TARGETING THE BRAND/LOGO ***/
+.navbar-brand {
+	padding: 11px 0 0 30px;
+  margin-right: 15px;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+/* Adjust brand name for different screen sizes */
+.navbar-brand h1 {
+  font-family: "Indie Flower", Arial;
+  color: #DF4558;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #223; 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (min-width: 476px) and (max-width: 767px) {
+  .navbar-brand h1 {
+    font-size: 2.7em;
+  }
+}
+@media (min-width: 350px) and (max-width: 475px) {
+  .navbar-brand h1 {
+    font-size: 2.1em;
+    padding-top: 4px;
+  }
+}
+@media (min-width: 290px) and (max-width: 349px) {
+  .navbar-brand h1 {
+    font-size: 1.6em;
+    padding-top: 8px;
+  }
+}
+@media (max-width: 289px) {
+  .navbar-brand h1 {
+    font-size: 1.26em;
+    text-shadow: none;
+  }
+}
+/* Decrease the brand name padding for sm screens */
+@media (max-width: 319px) {
+  .navbar-brand {
+    padding-left: 15px;
+  }
+}
+/*** END OF TARGETING THE BRAND/LOGO ***/
+
+
+/*** TARGETING THE SQUARE NAV MENU ***/
+/* Targets the Square nav menu in sm screens */
+body .navbar-toggler:hover {
+	background-color: #e2dede;
+}
+/* Gets rid of blue shadow around nav square menu upon click on sm screens */
+#navbar-header .navbar-toggler:focus {
+  outline: none;
+}
+
+/* Targets single horizontal bar in Menu box */ 
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: black;
+}
+/* Targets spacing between bars */
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+/* Targets border around the three lines in nav */
+#navbar-header button.navbar-toggler {
+  padding: 10px 9px 10px 9px;
+	border: 2px solid black;
+  margin: 8px 15px 0 0;
+}
+
+/*** END OF TARGETING THE SQUARE NAV MENU ***/
+
+
+/*** TARGETING THE NAVIGATION MENU EXPANDED ON SM SCREENS AND BUTTONS AT TOP IN LG SCREENS***/
+/* Area surrounding the nav buttons (dropdown menu on sm screens & horizontal menu on lg devices) */
+#collapsable-nav {
+  margin: 0px;
+}
+/* Fixed location on lg screens (align right) */
+@media (min-width:768px){
+  #collapsable-nav {
+    position: absolute;
+    top: -7px;
+    right: 25px;
+  }
+}
+
+/* Only XS screen: Modifyies the above so darker grey shows up for dropdown box & on hover light grey. */
+ @media (max-width:767px){
+	#collapsable-nav {
+		background: #e2dede;
+	}
+  /*   Light grey on hover in dropdown menu */
+  #nav-list a:hover, #nav-list a:focus, #nav-list a:active {
+	background: #f5f5f5;
+  } 
+  /* Changes the gap in dropdown menu */
+  #nav-list {
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+  } 
+}
+
+/* Similar to previous, but for lg screens */
+@media (min-width: 768px) {
+   /*  Changes the menu to dark grey on hover */
+  #nav-list a:hover {
+	  background: #e2dede;
+  }
+  /*  Increases margin from top  */
+  #nav-list {
+	margin-top: 26px;
+	margin-bottom: 0px;
+  }
+  /*  Increase padding between navigation menu buttons  */
+  #nav-list a.nav-link {
+    padding: 15px 15px 10px 15px;
+  }
+}
+
+/* Adjust the text in the Dropdown menu and nav menu */
+#nav-list a {
+	text-align: center;
+	color: #A1A1A1;
+	font-size: 1.1em;
+  padding-bottom: 10px;
+}
+
+/*** END OF TARGETING THE NAVIGATION MENU EXPANDED ON SMALL SCREENS AND BUTTONS AT TOP IN LARGE SCREENS***/
+
+
+/*END OF HEADER*/
+/*END OF HEADER*/
+
+/*START OF BODY*/
+/*START OF BODY*/
+
+
+/* JUMBOTRON SECTION */
+/* JUMBOTRON SECTION */
+
+/*** TARGETING JUMBOTRON BACKGROUND ***/
+/* General settings for jumbotron background */
+
+.jumbotron {
+    margin: 0px;
+    background: #f5f5f5;
+    padding: 30px 10px 35px 10px;
+  }
+@media (max-width: 767px) {
+  .jumbotron {
+    padding: 10px 10px 20px 10px;
+  }
+}
+/*** END OF TARGETING JUMBOTRON BACKGROUND ***/
+
+/*** START OF TARGETING MAIN CONTENT (TEXT & BUTTON)  ***/
+/* Targeting the "Business" title in the jumbotron section */
+#jumbo2 h1#business {
+  margin: 0px;
+  padding: 20px 0 25px 40px;
+  color: #A8A9AC;
+}
+@media (max-width: 767px) {
+  #jumbo2 h1#business {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+}
+/* For the h1 title, gets rid of padding & spans across full page width */
+#jumbo2 .container-fluid {
+  padding: 0px;
+}
+
+/* Adjust padding for main content, excluding title*/
+  #jumbo2 #main-content {
+    padding: 0 5px 0 5px;
+  }
+/* Increase margin for lg screens */
+@media (min-width: 768px) {
+  #jumbo2 #main-content {
+    margin: 0 15px 0 15px;
+    padding: 0 15px 0 15px;
+  }
+}
+
+/* Target h1 display*/
+#jumbo2 #main-content h1 {
+    display: none;
+  }
+
+/* Target img in HTML display*/
+@media (max-width: 650px) {
+  #main-content img {
+    display: none;
+  }
+}
+@media (min-width: 651px) {
+  #main-content img {
+    border: 8px solid black;
+    padding: 0px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Target banner img */
+@media (min-width: 500px) and (max-width: 650px) {
+  #main-content div.text-center { 
+    height: 143px;
+    background: url("../images/CYT-banner-sm.jpg") no-repeat center;
+    background-size: 100% auto;
+    border: 5px solid black;
+    border-radius: 40px;
+  }
+}
+@media (max-width: 499px) {
+  #main-content div.text-center {
+    height: 105px;
+    background: url("../images/CYT-banner-sm.jpg") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+
+/* Adjust font sizes for main text */
+.jumbotron p.lead {
+    font-size: 21px;
+}
+.jumbotron p.lead-support {
+  font-size: 18px;
+}
+#jumbo2 p.lead-points {
+  font-size: 18px;
+  margin-top: 0px;
+  padding-left: 30px;
+}
+#jumbo2 p.lead-conclusion {
+  font-size: 15px;
+  font-style: italic;
+  }
+ @media (min-width: 768px) {
+   #jumbo2 p.lead-conclusion {
+     position: absolute;
+     top: 0px;
+     right: 135px;
+   }
+}
+
+/* Adjust color, spacing and layout for main content */
+#jumbo2 p, #jumbo2 h1 {
+  margin: 15px auto 0px auto;
+  padding-bottom: 10px;
+  color: black;
+}
+
+/* Change the width of the break line on larger screens */
+@media (min-width: 992px) {
+  #jumbo2 hr {
+    width: 90%
+  }
+}
+
+/* Control the sign up button colour & on hover */
+#modal_trigger {
+  background: orange;
+  border: orange;
+}
+#modal_trigger:hover {
+  background: #F58B4C;
+  border: orange;
+}
+#modal_trigger:focus {
+  box-shadow: none;
+}
+
+/* Targets orange lead button */
+div.lead {
+  margin: 20px auto 10px auto;
+  text-align: right;
+}
+/* Change alignment on sm screens */
+@media (max-width: 767px) {
+  #jumbo2 #lead-button {
+    text-align: center;
+  }
+}
+/* Fix the alignment issues for popup screen from above */
+#jumbo2 #modal {
+  text-align: left;
+}
+
+/* Adjust alignment of checkbox on popup screen */
+.checkbox #send_updates {
+  margin-top: 7px;
+  margin-right: 8px;
+}
+/*** END OF TARGETING MAIN CONTENT (TEXT & BUTTON) ***/
+
+/* END OF JUMBOTRON SECTION */
+/* END OF JUMBOTRON SECTION */
+
+
+/* START OF PROJECTS SECTION */
+/* START OF PROJECTS SECTION */
+
+/* Entire background for the Projects section */
+#projects-box {
+  margin: 0px;
+  padding: 20px 10px 30px 10px;
+  background: #e2dede;
+}
+
+/* Targets all the buttons in the project section so no drop shadow upon click */
+#projects-box a:focus {
+  box-shadow: none;
+}
+
+/* Targeting the "Projects" title in the projects section */
+h1#projects {
+  margin: 0px;
+  padding: 20px 0 25px 40px;
+  color: black;
+}
+
+/* Gets rid of padding & spans across full page width */
+#projects-box .container-fluid {
+  padding: 0px;
+}
+
+/*** TARGETING GENERAL CARD/PROJECT BOX FOR SECTION  ***/
+/* Puts a padding around the entire project cards (group) squares */
+.project-content {
+  padding: 10px;
+  margin: 0px;
+}
+
+/* Gets rid of the auto centering by container class */
+#projects-box .container {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Modification to each individual card for ALL*/
+#projects-box  .card {
+  border: 6px solid #F5F5F5;
+  border-radius: 18px;
+  margin: 0px auto 0px auto;
+  background-color: #A8A9AC;
+  box-shadow: 4px 4px 4px black;
+}
+
+/* Center the alt text if image isn't showing up & puts border around img for ALL Cards */
+.project-content img {
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+  border-bottom: 1px solid #F5F5F5;
+  border-radius: 0px;
+  object-fit: contain;
+}
+
+.card-body {
+  color: black;
+}
+
+summary, details p {
+  padding-bottom: 15px;
+}
+
+:focus {
+  outline: none;
+}
+
+/*** END OF TARGETING GENERAL CARD/PROJECT BOX FOR SECTION  ***/
+
+
+/*** TARGETING SIZING WITHIN CARD/PROJECT BOX FOR SECTION  ***/
+/* Fix each individual card */
+@media (min-width: 1200px) {
+  #projects-box .card {
+    width: 275px;
+  }
+  /* Target image size */
+  #projects-box .card img {
+    height: 304px;
+  }
+}
+/* Fix each individual card */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #projects-box .card {
+    width: 275px;
+  }
+  /* Target the image size */
+  #projects-box .card img {
+    height: 304px;
+  }
+}
+/* Fix each individual card */
+@media (min-width: 768px) and (max-width: 991px) {
+  #projects-box .card {
+    width: 230px;
+  }
+  /* Target the image size */
+  #projects-box .card img {
+    height: 261px;
+  }
+}
+/* Fix each individual card */
+@media (min-width: 576px) and (max-width:767px) {
+  #projects-box .card {
+    width: 250px
+  }
+  #projects-box .card img {
+    height: 270px;
+  }
+}
+/* Fix each individual card */
+@media (min-width: 300px) and (max-width: 575px) {
+  #projects-box .card {
+    width: 250px;
+  }
+  #projects-box .card img {
+    height: 260px;
+  }
+}
+/* Fix each individual card */
+@media (max-width: 299px) {
+  #projects-box .card img {
+    height: 192px;
+  }
+  #projects-box .card {
+    width: 190px;
+  }
+}
+
+/* Button color for Codepen */
+#codepen {
+  background-color: black;
+  border: 1px solid grey;
+}
+
+#codepen:hover {
+  background-color: #343434;
+}
+/*** END OF TARGETING SIZING WITHIN CARD/PROJECT BOX FOR SECTION  ***/
+
+/* END OF PROJECTS SECTION */
+/* END OF PROJECTS SECTION */
+
+
+/* START OF SERVICES SECTION */
+/* START OF SERVICES SECTION */
+
+
+/* Entire background for the Service section */
+#services-box {
+  margin: 0px;
+  padding: 20px 10px 30px 10px;
+  background: #f5f5f5;
+}
+
+/*** TARGETING SERVICES TITLE FOR SECTION  ***/
+/* Targeting the "Services" title */
+h1#services {
+  margin: 0px;
+  padding: 20px 0 25px 40px;
+  color: black;
+}
+/* Gets rid of padding & spans across full page width */
+#services-box .container-fluid {
+  padding: 0px;
+}
+/*** END OF TARGETING SERVICES TITLE FOR SECTION  ***/
+
+/*** TARGETING BODY OF SERVICE SECTION  ***/
+#service-content {
+  margin: 0px;
+  padding: 0 5px;
+}
+@media (min-width: 992px) {
+  #service-content {
+    margin: 5px 10px 5px 10px;
+  }
+  #web-design, #process-improvement, #startup-tips {
+    padding: 0 25px;
+  }
+}
+
+@media (min-width: 1218px) {
+  #service-content.row {
+    width: 100%;
+  }
+}
+
+#service-content .card {
+  margin-top: 16px;
+  border: 0px;
+  max-width: 360px;
+}
+
+#service-content .card-body {
+  background-color: white;
+}
+/*** END OF TARGETING BODY OF SERVICE SECTION  ***/
+
+/* END OF SERVICES SECTION */
+/* END OF SERVICES SECTION */
+
+
+
+/* START OF ABOUT SECTION */
+/* START OF ABOUT SECTION */
+
+#about-box {
+  margin: 0px;
+  padding: 20px 10px 30px 10px;
+  background: #FBC9C8;
+}
+
+/* Get rid negative margins for body text */
+#about-box .row {
+  margin: 0px;
+}
+
+/*** TARGETING TITLE OF ABOUT SECTION  ***/
+/* For the h1 title, gets rid of padding & spans across full page width */
+#about-box .container-fluid {
+  padding: 0px;
+}
+
+/* Targeting the "About" title */
+h1#about {
+  margin: 0px;
+  padding: 20px 0 40px 40px;
+  color: black;
+}
+/*** END OF TARGETING TITLE OF ABOUT SECTION  ***/
+
+/*** TARGETING PHOTO & BODY OF ABOUT SECTION  ***/
+/* Targeting photo general */
+#profile-pic img, #profile-pic2 img {
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+#about-box .card {
+  background-color: transparent;
+  border: none;
+}
+
+/* Target font color of body text */
+.about-text {
+  color: black;
+}
+
+/* Target 2nd photo */
+@media (min-width: 1600px) {
+  #profile-pic2 img {
+    height: 375px;
+  }
+  #profile-pic2 {
+    width: 375px;
+  }
+  #about-photo2 {
+    margin: 0 20px 12px 30px;
+    float: right;
+  }
+}
+/* Target 1st picture & body text */
+@media (min-width: 751px) {
+  #profile-pic img {
+    height: 375px;
+  }
+  #profile-pic {
+    width: 375px;
+  }
+  #about-photo {
+    margin: 0 30px 12px 20px;
+    float: left;
+  }
+  .about-text {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 8px;
+  }
+}
+/* Target 2nd photo */
+@media (min-width: 751px) and (max-width: 1599px) {
+  #profile-pic2 img {
+    height: 375px;
+  }
+  #profile-pic2 {
+    width: 375px;
+  }
+  #about-photo2 {
+    margin: 0 20px 12px 30px;
+    float: right;
+  }
+}
+/* Target 1st & 2nd picture & body text */
+@media (min-width: 500px) and (max-width: 750px) {
+  #profile-pic img, #profile-pic2 img {
+    height: 425px;  
+  }
+  #profile-pic, #profile-pic2 {
+    width: 425px;
+    margin: 0px auto 0px auto;
+  }
+  .about-text p {
+    margin: 5px 20px 10px 20px;
+  }
+  .about-text {
+    margin-top: 20px;
+  }
+}
+/* Target 1st & 2nd picture & body text */
+@media (min-width: 375px) and (max-width: 499px) {
+  #profile-pic, #profile-pic2 {
+    margin-left: 20px; 
+    margin-right: 20px;
+  }
+  .about-text p {
+    margin: 5px 20px 10px 20px;
+  }
+  .about-text {
+    margin-top: 20px;
+  }
+}
+/* Target 1st & 2nd picture & body text */
+@media (max-width: 374px) {
+  #profile-pic, #profile-pic2 {
+    margin-left: 15px; 
+    margin-right: 15px;
+  }
+  .about-text p {
+    margin: 5px 15px 10px 15px;
+  }
+  .about-text {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .col-xwide-6 {
+    width: 50%;
+  }
+}
+/*** END OF TARGETING PHOTO & BODY OF ABOUT SECTION  ***/
+
+/* END OF ABOUT SECTION */
+/* END OF ABOUT SECTION */
+
+
+/* START OF CONTACT SECTION */
+/* START OF CONTACT SECTION */
+
+/* Entire background for the contact section */
+#contact-box {
+  margin: 0px;
+  padding: 20px 30px 30px 30px;
+  background: #f5f5f5;
+}
+
+/* Adjust background padding for sm screens */
+@media (max-width: 375px) {
+  #contact-box {
+    padding: 20px 25px 30px 25px;
+  }
+}
+
+#contact-box .container-fluid {
+  padding: 0px;
+}
+
+/* Targeting the "Contact" title */
+h1#contact {
+  margin: 0px;
+  padding: 20px 50px 25px 20px;
+  color: #A8A9AC;
+}
+
+/* Adjust h1 padding for sm screens */
+@media (max-width: 375px) {
+  h1#contact {
+    padding: 20px 20px 25px 25px;
+  }
+}
+
+#contact-box .container-fluid p {
+  color: #A8A9AC;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  #contact-box .container-fluid p {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  h1#contact {
+    float: left;
+  }
+}
+
+/* Change the color and spacing around the labels for the form input */
+label {
+  color: #A8A9AC;
+  margin: 25px 0px 5px 0;
+}
+
+/* Change the label margin for terms and conditions */
+.form-check label {
+  margin: 0px 0px 0px 5px;
+}
+
+/* Make the Comment box not be adjustable in size */
+#message {
+  resize: none;
+}
+
+#input1 {
+  margin-left: auto;
+}
+#input2 {
+  margin-right: auto;
+}
+
+#input3, #input4, #input5, #input6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Form validation CSS */
+  /* Make the form text show green if all is good */
+.valid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    margin-bottom: 0px;
+    font-size: 80%;
+    color: #28a745;
+}
+
+  /* Make the form text show red if missing input */
+.invalid-feedback, .invalid-feedback2, .invalid-feedback3 {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#input6 button:focus {
+  box-shadow: none;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+#thankyou_message2 {
+  display: none;
+  color: #28a745;
+  font-size: 125%;
+}
+
+/* END OF CONTACT SECTION */
+/* END OF CONTACT SECTION */
+
+
+/* START OF FOOTER SECTION */
+/* START OF FOOTER SECTION */
+
+.panel-footer-fixed {
+  background: black;
+}
+
+#footer-box {
+  margin: 0px;
+  padding: 0px 10px 10px 10px;
+}
+
+#social-media {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+#copy {
+  padding: 0px 10px 5px 10px;
+}
+
+#social-media i {
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.fa-twitter {
+  background: white;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  color: #00BDFF;
+}
+
+.fa-twitter:hover {
+  background: black;
+  border: 1.5px solid #00BDFF;
+}
+
+.fa-linkedin-in {
+  background: #017BBE;
+  border: 1.5px solid #017BBE;
+  border-radius: 16%;
+  color: white;
+}
+
+.fa-linkedin-in:hover {
+  background: black;
+  border: 1.5px solid #017BBE;
+}
+
+.fa-instagram {
+  background: #32628A;
+  border: 1.5px solid #32628A;
+  border-radius: 16%;
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: black;
+  border: 1.5px solid #32628A;
+}
+
+.fa-pinterest {
+  background: #EE3134;
+  border: 1.5px solid #EE3134;
+  border-radius: 16%;
+  color: white;
+}
+
+.fa-pinterest:hover {
+  background: black;
+  border: 1.5px solid #EE3134;
+}
+
+.fa-github {
+  background: white;
+  border: 1.5px solid white;
+  border-radius: 16%;
+  color: black;
+}
+
+.fa-github:hover {
+  background: black;
+  color: white;
+  border: 1.5px solid white;
+}
+
+.fa-medium {
+  background: white;
+  border: 1.5px solid white;
+  border-radius: 16%;
+  color: #18B475;
+}
+
+.fa-medium:hover {
+  background: black;
+  border: 1.5px solid #18B475;
+}
+
+/* Modify the social media logos to smaller */
+@media (max-width: 550px) {
+  #social-media i {
+    font-size: 1.1em;
+  }
+}
+
+/* END OF FOOTER SECTION */
+/* END OF FOOTER SECTION */
+
+/* START OF POP UP MODAL SECTION */
+/* START OF POP UP MODAL SECTION */
+
+/* POP UP SUBSCRIBE BUTTON */
+
+#lean_overlay {
+		position: fixed;
+		z-index: 100;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		background: #000;
+		display: none;
+}
+
+.popupContainer {
+		position: absolute;
+		width: 330px;
+		height: auto;
+		left: 80%;
+		top: 60px;
+		background: #f5f5f5;
+}
+
+@media (max-width: 349px) {
+  .popupContainer {
+    width: 220px;
+    left: 45%;
+  }
+}
+
+.btn_red {
+	  padding: 10px 20px;
+		background: orange;
+		color: #FFF;
+}
+
+.btn_red:hover {
+		background: #F58B4C;
+}
+
+.btn_red:focus {
+  box-shadow: none;
+}
+
+.one_half.last {
+		width: 45%;
+		margin-left: auto;
+	  margin-right: auto;
+}
+
+/* Popup Styles*/
+.popupHeader .header_title {
+		font-size: 16px;
+		text-transform: uppercase;
+    color: #A8A9AC;
+}
+
+.popupHeader {
+		background: #F4F4F2;
+		position: relative;
+		padding: 10px 20px;
+		border-bottom: 1px solid #DDD;
+		font-weight: bold;
+}
+
+.popupHeader .modal_close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 10px 15px;
+		background: #E4E4E2;
+		cursor: pointer;
+		color: #aaa;
+		font-size: 16px;
+}
+
+.popupBody {
+		padding: 20px;
+}
+
+/* Social Login (subscribe) Form */
+.social_login {}
+
+#main-content .social_login label {
+		display: block;
+		margin: 0px 0px 5px 0px;
+}
+
+.social_login input[type="text"],
+.social_login input[type="email"] {
+		display: block;
+		width: 90%;
+		padding: 8px;
+		border: 1px solid #DDD;
+		color: #666;
+}
+
+.social_login input[type="checkbox"] {
+		float: left;
+		margin-right: 5px;
+}
+
+.social_login input[type="checkbox"]+label {
+		float: left;
+}
+
+.social_login .checkbox {
+		margin-bottom: 10px;
+		clear: both;
+		overflow: hidden;
+}
+
+/* User_Register page */
+
+.user_register {
+	display: none;
+}
+
+#jumbo-picture-text #back-text {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>David Nowak's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/fontawesome-all.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-expand-md">
+      <div class ="container-fluid" id="navbar-header"> 
+
+        <!-- Brand -->
+        <div class="navbar-brand">
+          <a href="https://www.davidpnowak.com"><h1>David Nowak</h1></a>
+        </div> <!-- End of .navbar-brand class (Brand) -->
+        
+          <!-- Toggle -->
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+         <!--Nav bar used for toggling -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="navbar-nav">
+            <li class="nav-item">
+              <a class= "nav-link" href="#projects">Projects</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul> <!-- End of #nav-list & .navbar-nav -->
+        </div> <!-- end of navbar collapse -->
+        
+      </div> <!-- end of .container-fluid class & #navbar-header -->
+    </nav> <!-- end of #header-nav -->
+  </header>
+<!--  END OF HEADER SECTION  -->
+  
+<!--  START OF BODY SECTION  -->
+ <!--  START OF BUSINESS WEBSITE SECTION  --> 
+  <div class="jumbotron row" id="jumbo2">
+    <div class="container-fluid">
+      <h1 id="business">My Business Venture</h1>
+    </div>
+
+    <section id="main-content" class="container-fluid">
+      <div class="text-center">
+        <img class="img-fluid col-lg-10" src="images/CYT-banner-lg.jpg" alt="Banner picture of Create Your Tale - For Entrepreneurs"> 
+      </div>
+
+      <h1 class="display-4 col-lg-8 col-md-10">CREATE YOUR TALE! - For Entrepreneurs</h1>
+
+      <p class="lead col-lg-10">An inspirational community for current and aspiring online entrepreneurs to learn, connect, and start or share their tales to success and get to their goals faster!</p>
+
+      <hr class="my-4">
+
+      <p class="lead-support col-lg-10">Why join this FREE community?</p>
+
+      <p class="lead-points col-lg-10">Achieving a successful solo online business is HARD! However, being part of a diverse and smart community greatly increases everyone's odds at success.</p>
+
+      <p class="lead-points col-lg-10">Meeting the right people is undervalued. At CreateYourTale, get personally introduced to other motivated, like-minded individuals to help each other succeed.</p>
+
+      <p class="lead-support col-lg-10">Join the CreateYourTale community to help you open more paths towards success and build lasting friendships.</p>
+        
+      <div class="lead col-lg-8 col-md-10" id="lead-button">
+        <a class="btn btn-primary btn-lg" id="modal_trigger" href="#modal" role="button">Sign Up</a>
+        <p class="lead-conclusion">(only 100 spots left!)</p>
+          
+        <!--   To trigger a sign-up subscribe modal box  -->
+        <div id="modal" class="popupContainer" style="display:none;">
+				  <header class="popupHeader">
+            <span class="header_title">Join CreateYourTale</span>
+						<span class="modal_close"><i class="fa fa-times"></i></span>
+				  </header>
+            
+          <section class="popupBody">
+					<!-- Social Login (subscribe) -->
+						<div class="social_login" id="subscribeBody">
+						  <form class="needs-validation" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxG2BXvQAUxSwXgThPBe86rX9B0Kg80Yzpcc4P6LYeUE4Nnmdk/exec" novalidate>               
+                  
+							  <label for="fullname">Full Name *</label>
+								<input type="text" id="fullname" name="fullname" maxlength="25" required>
+                <div class="invalid-feedback2">
+                  Please enter at least 3 characters!
+                </div> <!-- End of fullname -->
+                  
+								<br/>
+                  
+								<label for="email">Email Address *</label>
+								<input type="email" id="email" name="email" maxlength="40" required>
+                <div class="invalid-feedback3">
+                  Please enter a valid e-mail address!
+                </div> <!-- End of email -->
+                  
+								<br/>
+                
+								<div class="checkbox">
+									<input id="send_updates" name="send_updates" type="checkbox" required>
+									<label for="send_updates">Send me occasional emails</label>
+								</div> <!-- End of checkbox -->
+
+								<div class="action_btns">
+									<div class="one_half last">
+                    <button class="btn btn_red" id="subscribe-button">Join us!</button>
+                  </div>
+								</div> <!-- End of action_btns class -->
+							</form>  <!-- End of form -->
+						</div>  <!-- End of social_login div class -->
+              
+            <!-- user_register Login -->
+						<div class="user_register" id="thankyou_message">
+						  <p id="back-text"> Successfully registered! We will be in touch soon.</p>
+					  </div> <!-- End of user_register login class -->
+				  </section> <!-- End of popupBody section class --> 
+		    </div> <!-- End of popupContainer class and #modal id -->
+      </div> <!-- End of .lead class & #lead-button div --> 
+    </section> <!-- end of main-content class -->
+  </div> <!-- end of jumbotron content & #jumbo2 id -->
+<!--  END OF BUSINESS WEBSITE CONTENT  -->
+  
+<!--   START OF PROJECTS CONTENT -->
+  <div class="row" id="projects-box">
+    <div class="container-fluid">
+      <h1 id="projects">Projects</h1>
+    </div>
+    
+    <!--   START OF BOX 1 content   -->
+    <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <section class="project-content">
+        <div class="card" id="box1">
+          <img class="card-img-top" src="images/img1.jpeg" alt="Screenshot of David Nowak's personal website">
+          <div class="card-body">
+            <h5 class="card-title">DavidpNowak - My Personal Website</h5>
+            <details>
+              <summary>Project Description</summary>
+              <p class="card-text">Created (from scratch) my own website for both myself and to complete FCC's portfolio website assignment.</p>
+            </details>
+            <a href="https://codepen.io/Confidenceiskey/full/KQZKZz/" target='_blank' class="btn btn-primary btn-block" id="codepen" role="button"><i class="fab fa-codepen"></i> &nbsp; Codepen</a> 
+            <a href="https://www.davidpnowak.com" class="btn btn-success btn-block" role="button">Website</a>
+          </div> <!-- end of .card-body class content -->
+        </div> <!-- end of .card class (#box1) content -->
+      </section> <!-- end of section .project-content class content -->
+    </div> <!-- end of container class (#box1) content -->
+          
+    <!--   START OF BOX 2 content   -->
+    <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <section class="project-content">
+        <div class="card" id="box2">
+          <img class="card-img-top" id="networkrgenius" src="images/img2.jpeg" alt="Demo YouTube video clip of a prototype app called NetworkrGenius!">
+          <div class="card-body">
+            <h5 class="card-title">Networkr Genius - Demo App of Prototype</h5>
+            <details>
+              <summary>Project Description</summary>
+              <p class="card-text">Took a business idea from concept to MVP. This app would be designed to help you better keep in touch with those who matter to you in both your business and personal life.</p>
+            </details>
+            <a href="https://youtu.be/nM6UsXT9FaY" target='_blank' class="btn btn-danger btn-block" role="button"><i class="fab fa-youtube"></i> &nbsp; YouTube</a>
+          </div> <!-- end of .card-body class content -->
+        </div> <!-- end of card class (#box2) content -->
+      </section> <!-- end of section .project-content class -->
+    </div> <!-- end of container class (box2) content -->   
+    
+    <!--   Fixes content wrapping issue on xs screen sizes (insert after every 2nd box)   -->
+    <div class="clearfix visible-xs-block"></div>
+          
+    <!--   START OF BOX 3 content   -->
+    <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <section class="project-content">
+        <div class="card" id="box3">
+          <img class="card-img-top" src="images/img3.jpeg" alt="Screenshot of finished War card game step-by-step tutorial">
+          <div class="card-body">
+            <h5 class="card-title">War Card Game - Demo of App</h5>
+            <details>
+              <summary>Project Description</summary>
+              <p class="card-text">Recreated the iOs War Card Game App through a guided tutorial by codewithchris.</p>
+            </details>
+            <a href="https://youtu.be/kdTf3TjmuA0" target='_blank' class="btn btn-danger btn-block" role="button"><i class="fab fa-youtube"></i> &nbsp; YouTube</a>
+          </div> <!-- end of .card-body class content -->
+        </div> <!-- end of .card class (#box3) content -->
+      </section> <!-- end of section .project-content class -->
+    </div> <!-- end of container class (box3) content -->   
+    
+    <!--   Fixes content wrapping issue on small screen sizes (insert after every 3rd box)   -->
+    <div class="clearfix visible-sm-block"></div>
+    
+    
+    <!--   START OF BOX 4 content   -->
+    
+      <!--   START OF BOX 4 content   -->
+<!--     <div class="container col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <section class="project-content">
+        <div class="card" id="box4">
+          <img class="card-img-top" src="#" alt="Screenshot of finished War card game step-by-step tutorial">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <details>
+              <summary>Project Description</summary>
+              <p class="card-text">Some description goes here</p>
+            </details> -->
+<!--           </div> end of .card-body class content -->
+<!--         </div> end of .card class (#box4) content -->
+<!--       </section> end of section .project-content class -->
+<!--     </div> end of container class (box4) content    -->
+    
+<!--   Fixes content wrapping issue on xs, large & medium screen sizes (insert after every 4th box)   -->
+<!--     <div class="clearfix visible-lg-block visible-md-block visible-xs-block"></div> -->
+   
+    <!--   START OF BOX 5 content   -->
+
+    
+  </div> <!-- End of projects-box content -->
+  <!--   END OF PROJECTS CONTENT -->
+  
+  <!--   START OF SERVICES CONTENT -->
+  <div class="row" id="services-box">
+    <div class="container-fluid">
+      <h1 id="services">Services</h1>
+    </div>
+
+    <div class="row" id="service-content">
+      
+      <!--  Start of Web design content  -->
+      <div class="col-sm-6 col-lg-4" id="web-design">
+        <div class="card bg-success mb-3 mx-auto">
+          <h3 class="card-header text-center">WEB DESIGN</h3>
+          <div class="card-body">
+            <p class="card-text">
+              NEED A MODERN, RESPONSIVE WEBSITE?
+            </p>
+            <details>
+              <summary>Landing pages</summary>
+              <p class="card-text">Will help you strategize and create that perfect landing page to help you collect data and test your MVP idea.</p>
+            </details>
+            
+            <details>
+              <summary>1 page websites</summary>
+              <p class="card-text">Need better exposure for your business in a compact manner? I'll create a one page, sectional website to showcase your business. Simple and effective!</p>
+            </details>
+            
+            <details>
+              <summary>Small scale websites</summary>
+              <p class="card-text">Need a website with less than 6 pages? This is for you! I'll work with you to design an effective and visually pleasing website so your customers leave impressed.</p>
+            </details>
+          </div> <!-- End of .card-body class div -->
+        </div> <!-- End of .card class div -->
+      </div> <!-- End of #web-design content -->    
+    
+      <!--  Start of Process Improvement content  -->
+      <div class="col-sm-6 col-lg-4" id="process-improvement">
+        <div class="card bg-warning mb-3 mx-auto">
+          <h3 class="card-header text-center">SALARY NEGOTIATION</h3>
+          <div class="card-body">
+            <p class="card-text">FEEL DESERVING OF A RAISE?</p>
+            <details>
+              <summary>Salary negotiation</summary>
+              <p class="card-text">If you have the right profile, I'll work with you to develop a winning strategy to strongly increase your chances of getting the pay you deserve!</p>
+            </details> 
+          </div> <!-- End of .card-body class div -->
+        </div> <!-- End of .card class div -->
+      </div> <!-- End of #process-improvement content -->    
+
+      <!--  Start of Startup tips content  -->
+      <div class="col-sm-6 col-lg-4" id="startup-tips">
+        <div class="card bg-danger mb-3 mx-auto">
+          <h3 class="card-header text-center">STARTUP TIPS</h3>
+          <div class="card-body">
+            <p class="card-text">WANNA BE AN ONLINE ENTREPRENEUR?</p>
+            <details>
+              <summary>Learning</summary>
+              <p class="card-text">Thinking about starting out? I'll discuss your goals and wants with you, and provide a tailorized learning path to help you get started faster. I will only recommend to you the best resources.</p>
+            </details>
+            
+            <details>
+              <summary>Programming</summary>
+              <p class="card-text">Should you learn programming or not? It all depends on your goals and desires. Are you a DIY or hire someone to do it for you kind of person? I personally choose to learn as it would give me more opportunities to succeed and leaves more paths open. If you decide to learn, I'll provide you with the best resources to get you started.</p>
+            </details>
+          </div> <!-- End of .card-body div class -->
+        </div> <!-- End of .card div class --> 
+      </div> <!-- End of #startup-tips content -->  
+    
+    </div> <!-- End of div class row & #service-content content--> 
+  </div> <!-- End of #services-box div --> 
+<!--   END OF SERVICES CONTENT -->
+  
+<!--   START OF ABOUT CONTENT -->
+  <div id="about-box">
+    <div class="container-fluid">
+      <h1 id="about">About</h1>
+    </div>
+    
+    <div class="row">
+
+      <div class="col-xwide-6">
+        <section id="about-photo">
+          <div class="card" id="profile-pic">
+            <img class="card-img-top" src="images/profile-pic.jpeg" alt="Photo of David Nowak">
+          </div> <!-- End of #profile-pic div -->
+        </section> <!-- End of #about-photo section class -->
+     
+        <section class="about-text">
+          <p>Hi, I'm David!</p> 
+        
+          <p>I come from a civil engineering background where I've worked in the structural engineering industry for over 5 years. In that time I've gained a lot of knowledge, as well as practical and real world skills. Working 8-10 hour days allowed me to develop a very high level of problem solving skills, and the ability to quickly find errors in calculations, designs, drawings, and manufacturing. My attention to detail and abilities to think outside the box were constantly put to the test in day-to-day operations in order to solve real world engineering issues, and eventually lead to solving large company/industry problems. My abilities caught the Managing Director's attention, and I was being put on the fast track to becoming the Senior Design Engineer within months.</p>
+          
+          <p>In addition to engineering, I was also able to work on numerous projects that really expanded my basic business knowledge at the time. As I got to see how the Managing Director worked and handled business decisions, it began to spark my interest more and more. I decided to supplement my learning by spending most of my free time reading the best business books I could find, and started to see links between the theory and practice. From all these experiences and the non-engineering projects, I had developed a good practical business sense. This is where my career mindset and the way I thought about things began to change.</p>
+        </section> <!-- End of .about-text section class -->
+      </div> <!-- End of .col-xwide-6 div class -->
+
+      <div class="col-xwide-6">
+        <section id="about-photo2">
+          <div class="card" id="profile-pic2">
+            <img class="card-img-top" src="images/profile-pic2.jpg" alt="Photo of David Nowak">
+          </div> <!-- End of #profile-pic2 div -->
+        </section> <!-- End of #about-photo2 section class -->
+     
+        <section class="about-text">
+          <p>Back in my engineering world, I also began to be annoyed by inefficiencies in the business and repetitive engineering tasks. Having to do similar things over and over again really began to bother and frustrate me. This is where I consciously decided to take up programming seriously. I had some experience with it in the past, but I never truely grasped the power of what you can do with programming, nor had the passion for it. However, that quickly changed as I began to study and eventually created some practical programs. When things started to make more and more sense, this is where I really started becomming passionate about programming.</p>
+        
+          <p> I began to think more about how I could combine my passions for programming and business together, and what I wanted to get out of all this learning. The next logical step for me was to join my two passions together online and also learn web development. Together, these skills would create a powerful combination where I'd have many more possibilities available to me. I had reached that point in my life where I needed to make a decision if I wanted to continue down the engineering path or go on an adventure and follow my recently developed passions. I chose the ladder.</p>
+
+          <div class="clearfix"></div>
+        </section> <!-- End of #about-text section -->
+      </div> <!-- End of .col-xwide-6 div class -->
+
+    </div> <!-- End of .row div class -->
+  </div> <!-- End of #about-box content -->
+<!--   END OF ABOUT CONTENT -->  
+  
+  
+<!--  START OF CONTACT CONTENT  -->
+  <div id="contact-box">
+    <div class="container-fluid">
+      <h1 class="text-left" id="contact">Contact</h1>
+      <p>Feel free to contact me about the services that I offer, business topics, or if we share common goals.</p>
+    </div>
+    
+    <form class="needs-validation" id="commentForm" method="POST" action="https://script.google.com/macros/s/AKfycbwPp-W6KjOyMWf2Qih9lqFGhmKHCquRrq2cm2vjnyNvMH6wIB8/exec" novalidate>
+      
+      <div class="form-row">
+        <!--   START OF FORM 1 content   -->
+        <div class="col-md-4 mb-3" id="input1">
+          <label for="firstname">First name *</label>
+          <input type="text" class="form-control" name="firstname" id="firstname" placeholder="First name" maxlength="15" required>
+          <div class="valid-feedback">
+            Okay!
+          </div>  <!-- End of .valid-feedback class div -->
+          <div class="invalid-feedback">
+            Please provide your first name.
+          </div> <!-- End of .invalid-feedback class div -->
+        </div> <!-- End of #input1 id (firstname) -->
+        
+        <!--   START OF FORM 2 content   -->
+        <div class="col-md-4 mb-3" id="input2">
+          <label for="lastname">Last name *</label>
+          <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last name" maxlength="18" required>
+          <div class="valid-feedback">
+            Okay!
+          </div> <!-- End of .valid-feedback class div -->
+          <div class="invalid-feedback">
+            Please provide your last name.
+          </div> <!-- End of .invalid-feedback class div -->
+        </div> <!-- End of #input2 id (lastname) -->
+      
+        <!--   START OF FORM 3 content   -->
+        <div class="col-md-4 col-lg-8 mb-3" id="input3">
+		      <label for="email">E-mail Address *</label>
+		      <input type="email" class="form-control" name="email" id="email" placeholder="example@gmail.com" maxlength="40" required>
+          <div class="valid-feedback">
+            Okay!
+          </div>  <!-- End of .valid-feedback class div -->
+          <div class="invalid-feedback">
+            Please provide a valid e-mail address.
+          </div> <!-- End of .invalid-feedback class div -->
+	      </div>  <!-- End of #input3 id (email) -->
+
+      </div> <!-- End of .form-row class div -->
+      
+      <!--   Fixes content wrapping issue after list items   -->
+      <div class="clearfix"></div>
+      
+      <!--   START OF FORM 4 content   -->
+      <div class="form-row">
+        <div class="col-lg-8 mb-3" id="input4"> 
+          <label for="message">Comment <i>(500 character limit)</i> *</label>
+		      <textarea class="form-control" id="message" name="message" placeholder="Enter text here..." rows="5" minlength="25" maxlength="500" required></textarea>
+          <div class="valid-feedback">
+            Okay!
+          </div>  <!-- End of .valid-feedback class div -->
+          <div class="invalid-feedback">
+            Please enter a comment of at least 25 characters, but no more than 500!
+          </div>  <!-- End of .invalid-feedback class div -->
+	      </div>   <!-- End of #input4 id (message) --> 
+      </div> <!-- End of .form-row class div -->
+        
+      <!--   Fixes content wrapping issue after list items   -->
+      <div class="clearfix"></div>
+      
+      <div class="col-lg-8 mb-4 form-group" id="input5">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" name="spam_check" id="spam_check" required>
+          <label for="spam_check">
+            Agree that you will not contact me with spam.
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div> <!-- End of .form-check div class -->
+      </div> <!-- End of .form-group div class -->
+        
+      <!--   Fixes content wrapping issue after list items   -->
+      <div class="clearfix"></div>
+      
+      <div class="col-lg-8" id="input6">
+        <button class="btn btn-primary" type="submit">Submit</button>  
+      </div>
+    </form> <!-- End of form and .needs-validation class -->
+    
+    <div class="text-center" id="thankyou_message2">
+		  <p id="back-text"> Comment sent successfully!
+		</div> <!-- End of #thankyou_message2 ID -->
+    
+  </div> <!-- End of #contact-box div -->
+<!--   END OF CONTACT CONTENT -->  
+  
+  
+<!--  START OF FOOTER CONTENT  -->
+  <footer class="panel-footer-fixed">
+    <div class="container">
+      <div class="row" id="footer-box">
+        <section id="social-media">
+          <a href="https://twitter.com/createyourtale" target="_blank"><i class="fab fa-twitter" title="twitter"></i></a>
+          
+          <a href="https://www.linkedin.com/in/davidpnowak" target="_blank"><i class="fab fa-linkedin-in" title="LinkedIn"></i></a>
+          
+          <a href="https://www.instagram.com/createyourtale/" target="_blank"><i class="fab fa-instagram" title="Instagram"></i></a>
+          
+          <a href="https://www.pinterest.ca/createyourtale/" target="_blank"><i class="fab fa-pinterest" title="Pinterest"></i></a>
+          
+          <a href="https://github.com/Confidenceiskey" target="_blank"><i class="fab fa-github" title="Github"></i></a>
+          
+          <a href="https://medium.com/@createyourtale/" target="_blank"><i class="fab fa-medium" title="Medium"></i></a>
+        </section> <!-- End of #social-media id -->
+      </div> <!-- End of #footer-box id div -->
+      
+       <!--  Insert copyright info later   -->
+      <div class="text-center" id="copy">
+      </div>
+    </div> <!-- End of .container class -->
+  </footer> <!-- End of footer (.panel-footer-fixed) -->
+<!--  END OF FOOTER CONTENT  -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/leanModal.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/form-submission-handler.js"></script>
+   <script src="js/form-comment-submission-handler.js"></script>
+</body>
+</html>
