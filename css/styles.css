@@ -231,12 +231,12 @@ body .navbar-toggler:hover {
 
 /* Target img in HTML display*/
 @media (max-width: 650px) {
-  #main-content img {
+  #main-content img#banner-img {
     display: none;
   }
 }
 @media (min-width: 651px) {
-  #main-content img {
+  #main-content img#banner-img {
     border: 8px solid black;
     padding: 0px;
     border-radius: 50px;
@@ -246,7 +246,7 @@ body .navbar-toggler:hover {
 
 /* Target banner img */
 @media (min-width: 500px) and (max-width: 650px) {
-  #main-content div.text-center { 
+  #main-content #banner-background { 
     height: 143px;
     background: url("../images/CYT-banner-sm.jpg") no-repeat center;
     background-size: 100% auto;
@@ -255,7 +255,7 @@ body .navbar-toggler:hover {
   }
 }
 @media (max-width: 499px) {
-  #main-content div.text-center {
+  #main-content #banner-background {
     height: 105px;
     background: url("../images/CYT-banner-sm.jpg") no-repeat center;
     background-size: 100% auto;
@@ -277,6 +277,7 @@ body .navbar-toggler:hover {
 #jumbo2 p.lead-conclusion {
   font-size: 15px;
   font-style: italic;
+  margin-top: 3px;
   }
  @media (min-width: 768px) {
    #jumbo2 p.lead-conclusion {
@@ -554,6 +555,7 @@ h1#services {
   margin: 0px;
   padding: 20px 10px 30px 10px;
   background: #FBC9C8;
+  background: #BFE9D5;
 }
 
 /* Get rid negative margins for body text */
@@ -1037,8 +1039,10 @@ label {
 	display: none;
 }
 
-#jumbo-picture-text #back-text {
-  position: relative;
-  top: 0px;
-  left: 0px;
+#fullname {
+  border-color: ;
+}
+
+#email_address {
+  border-color: ;
 }

@@ -1,5 +1,5 @@
-function validEmail(email) { // see:
-  var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+function validEmail(email) {
+  var re = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   return re.test(email);
 }
 
@@ -83,12 +83,11 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     return false;
   }
   */
-  debugger;
 
   if( !validEmail(data.email) || !validFirstname(data.firstname) || !validLastname(data.lastname) || !validMessage(data.message) || !validCheckbox(data.spam_check)) {   // if anything isn't valid show error
     return false;
   } else {
-    $("#commentForm").replaceWith("<div class='text-center' id='loadingGif'><img src='images/ajax-loader.gif' alt='loading' /></div>").fadeIn();
+    $("#commentForm").replaceWith("<div class='text-center' id='loadingGif2'><img src='images/ajax-loader.gif' alt='loading' /></div>").fadeIn();
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
@@ -97,9 +96,8 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     xhr.onreadystatechange = function() {
         console.log( xhr.status, xhr.statusText )
         console.log(xhr.responseText);
-        $("#loadingGif").hide();
+        $("#loadingGif2").hide();
         document.getElementById('thankyou_message2').style.display = 'block';
-        
         return;
     };
     // url encode form data for sending as post data
@@ -110,7 +108,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   }
 }
 function loaded() {
-  console.log('contact form submission handler loaded successfully');
+  console.log('form comment submission handler loaded successfully');
   // bind to the submit event of our form
   var form = document.getElementById('commentForm');
   form.addEventListener("submit", handleFormSubmit, false);

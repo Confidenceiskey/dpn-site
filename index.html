@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115290738-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-115290738-1');
-    </script>
     <meta charset="utf-8">
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <title>David Nowak's Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="static/fontawesome-all.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="static/fontawesome-crop.css">
+    <link rel="stylesheet" href="css/styles-min.css">
   </head>
   
 <body>
@@ -71,8 +62,8 @@
     </div>
 
     <section id="main-content" class="container-fluid">
-      <div class="text-center">
-        <img class="img-fluid col-lg-10" src="images/CYT-banner-lg.jpg" alt="Banner picture of Create Your Tale - For Entrepreneurs"> 
+      <div class="text-center" id="banner-background">
+        <img class="img-fluid col-lg-10" id="banner-img" src="images/CYT-banner-lg.jpg" alt="Banner picture of Create Your Tale - For Entrepreneurs"> 
       </div>
 
       <h1 class="display-4 col-lg-8 col-md-10">CREATE YOUR TALE! - For Entrepreneurs</h1>
@@ -89,9 +80,9 @@
 
       <p class="lead-support col-lg-10">Join the CreateYourTale community to help you open more paths towards success and build lasting friendships.</p>
         
-      <div class="lead col-lg-8 col-md-10" id="lead-button">
+      <div class="container lead col-lg-8 col-md-10" id="lead-button">
         <a class="btn btn-primary btn-lg" id="modal_trigger" href="#modal" role="button">Sign Up</a>
-        <p class="lead-conclusion">(only 100 spots left!)</p>
+        <p class="lead-conclusion"> only 100 spots left! <br> [updated: 8-Mar-18] </p>
           
         <!--   To trigger a sign-up subscribe modal box  -->
         <div id="modal" class="popupContainer" style="display:none;">
@@ -103,7 +94,7 @@
           <section class="popupBody">
 					<!-- Social Login (subscribe) -->
 						<div class="social_login" id="subscribeBody">
-						  <form class="needs-validation" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxG2BXvQAUxSwXgThPBe86rX9B0Kg80Yzpcc4P6LYeUE4Nnmdk/exec" novalidate>               
+						  <form class="" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxG2BXvQAUxSwXgThPBe86rX9B0Kg80Yzpcc4P6LYeUE4Nnmdk/exec" novalidate>               
                   
 							  <label for="fullname">Full Name *</label>
 								<input type="text" id="fullname" name="fullname" maxlength="25" required>
@@ -113,8 +104,8 @@
                   
 								<br/>
                   
-								<label for="email">Email Address *</label>
-								<input type="email" id="email" name="email" maxlength="40" required>
+								<label for="email_address">Email Address *</label>
+								<input type="email" id="email_address" name="email_address" maxlength="40" required>
                 <div class="invalid-feedback3">
                   Please enter a valid e-mail address!
                 </div> <!-- End of email -->
@@ -136,7 +127,7 @@
               
             <!-- user_register Login -->
 						<div class="user_register" id="thankyou_message">
-						  <p id="back-text"> Successfully registered! We will be in touch soon.</p>
+						  <p class="back-text"> Successfully submitted! We will be in touch soon.</p>
 					  </div> <!-- End of user_register login class -->
 				  </section> <!-- End of popupBody section class --> 
 		    </div> <!-- End of popupContainer class and #modal id -->
@@ -442,7 +433,7 @@
     </form> <!-- End of form and .needs-validation class -->
     
     <div class="text-center" id="thankyou_message2">
-		  <p id="back-text"> Comment sent successfully!
+		  <p class="back-text"> Comment sent successfully!
 		</div> <!-- End of #thankyou_message2 ID -->
     
   </div> <!-- End of #contact-box div -->
@@ -480,7 +471,6 @@
    <script src="js/leanModal.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
    <script src="js/script.js"></script>
-   <script src="js/form-submission-handler.js"></script>
    <script src="js/form-comment-submission-handler.js"></script>
 </body>
 </html>
