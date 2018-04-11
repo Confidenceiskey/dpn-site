@@ -501,10 +501,15 @@ summary, details p {
 
 /*** TARGETING SERVICES TITLE FOR SECTION  ***/
 /* Targeting the "Services" title */
-h1#services {
+h1#services{
   margin: 0px;
   padding: 20px 0 25px 40px;
   color: black;
+}
+#services-box p {
+  color: #000;
+  padding: 0 0 0 40px;
+  font-style: italic;
 }
 /* Gets rid of padding & spans across full page width */
 #services-box .container-fluid {

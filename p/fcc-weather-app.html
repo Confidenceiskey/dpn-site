@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115290738-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115290738-1');
+    </script>
+
+    <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>FCC Local Weather App</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/fontawesome-crop.css">
+    <link rel="stylesheet" href="fccweather/styles-min.css">
+  </head>
+  
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-expand-md">
+      <div class ="container-fluid" id="navbar-header"> 
+
+        <!-- Brand -->
+        <div class="navbar-brand">
+          <a href="https://davidpnowak.com"><h1>David Nowak</h1></a>
+        </div> <!-- End of .navbar-brand class (Brand) -->
+        
+      </div> <!-- end of .container-fluid class & #navbar-header -->
+    </nav> <!-- end of #header-nav -->
+  </header>
+<!--  END OF HEADER SECTION  -->
+  
+<!--  START OF BODY SECTION  -->
+  <div class="mx-auto" id="outer-box">
+    <div class="row" id="insert-html">
+
+     <!-- Start of picture goes here -->
+      <div class="mx-auto" id="weather-icon">
+      </div>
+      
+    </div>  <!-- End of div class row & #insert-html id -->
+    
+    <div class="row" id="main-body">
+      <div class ="container col-all-7" id="temp">
+        <!-- Insert temperature here from JS -->
+        <p id="temp-val"></p>
+      </div>
+      
+      <!-- Toggle switch from C to F -->
+      <div class="container col-all-5">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div> 
+    </div>  <!-- End of #main-body div -->
+    
+    <div class="row mx-auto" id="footer">
+      <div id="weather-text">
+        <p>Weather in </p>
+      </div>
+      <div id="city-text">
+        <!-- Insert City & Country here from JS -->
+        <p id="city-country-val">...</p>
+      </div>
+    </div> <!-- End of #footer div -->
+  </div> <!-- End of #outer-box div -->
+  
+  <div class="row" id="footer-bottom">
+    <p class="mx-auto">Inspired by <a href="https://codepen.io/freeCodeCamp/full/bELRjV" target="_blank">freeCodeCamp</a> &amp; <a href="https://codepen.io/joshbader/full/EjXgqr/" target="_blank">joshbader</a></p>
+  </div>
+
+<!--  END OF BODY SECTION  --> 
+  
+<!--  START OF FOOTER CONTENT  -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row" id="footer-box">
+        <section id="social-media">
+          <a href="https://twitter.com/davidpnowak" target="_blank"><i class="fab fa-twitter" title="twitter"></i></a>
+          
+          <a href="https://www.linkedin.com/in/davidpnowak" target="_blank"><i class="fab fa-linkedin-in" title="LinkedIn"></i></a>
+          
+          <a href="https://www.instagram.com/createyourtale/" target="_blank"><i class="fab fa-instagram" title="Instagram"></i></a>
+          
+          <a href="https://www.pinterest.ca/createyourtale/" target="_blank"><i class="fab fa-pinterest" title="Pinterest"></i></a>
+          
+          <a href="https://github.com/Confidenceiskey" target="_blank"><i class="fab fa-github" title="Github"></i></a>
+          
+          <a href="https://medium.com/@davidpnowak/" target="_blank"><i class="fab fa-medium" title="Medium"></i></a>
+        </section> <!-- End of #social-media id -->
+      </div> <!-- End of #footer-box id div -->
+      
+       <!--  Insert copyright info later   -->
+      <div class="text-center" id="copy">
+      </div>
+    </div> <!-- End of .container class -->
+  </footer> <!-- End of footer (.panel-footer-fixed) -->
+<!--  END OF FOOTER CONTENT  -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+   <script src="../js/jquery-3.3.1.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="fccweather/script.js"></script>
+</body>
+</html>
