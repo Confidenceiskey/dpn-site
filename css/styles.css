@@ -269,10 +269,11 @@ body .navbar-toggler:hover {
 .jumbotron p.lead-support {
   font-size: 18px;
 }
-#jumbo2 p.lead-points {
+#jumbo2 .lead-points {
   font-size: 18px;
   margin-top: 0px;
   padding-left: 30px;
+  color: #000;
 }
 #jumbo2 p.lead-conclusion {
   font-size: 15px;
