@@ -8,7 +8,9 @@ If you want to connect, add me on:
 **[Twitter](https://twitter.com/davidpnowak)**    
 **[Medium](https://medium.com/@davidpnowak)**
 
-If you are an aspiring online entrepreneur, digital nomad, blogger or someone pursuing an online business, you might want to check out my **[CreateYourTale](https://davidpnowak.com)** community. A place where we all help each other along our journeys in creating successful online businesses. This is achieved by being surrounded with other motivated, like-minded individuals in a 'mastermind' group to share, learn and help each other out. You can also follow CreateYourTale on **[Twitter](https://twitter.com/createyourtale)**
+If you are an aspiring online entrepreneur, digital nomad, blogger or someone pursuing an online business, you might want to check out my **[CreateYourTale](https://davidpnowak.com)** community. 
+
+It is a place where everyone helps each other along their journeys to creating a successful online business. This is achieved by being surrounded with other motivated, like-minded individuals in a 'mastermind' group to share, learn and help each other out. You can also follow CreateYourTale on **[Twitter](https://twitter.com/createyourtale)**
 
 ##  
 
