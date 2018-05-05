@@ -2,13 +2,13 @@
 
 I have complied a list of links to help you get to what you are looking for quicker. As my site grows, I will add more things to this readme file.
 
-### If you want to see the live version of my website, please click on my name:  [David Nowak](https://davidpnowak.com)
+### If you want to see the live version of my website, please click on "Portfolio Website", under freeCodeCamp projects!
 
 If you want to connect, add me on:     
 **[Twitter](https://twitter.com/davidpnowak)**    
 **[Medium](https://medium.com/@davidpnowak)**
 
-If you are an aspiring online entrepreneur, digital nomad, blogger or someone pursuing an online business, you might want to check out my **[CreateYourTale](https://davidpnowak.com)** community. 
+If you are an aspiring online entrepreneur, digital nomad, blogger or someone pursuing an online business, you might want to check out my **CreateYourTale** community. You can find out more information about it on my portfolio website.
 
 It is a place where everyone helps each other along their journeys to creating a successful online business. This is achieved by being surrounded with other motivated, like-minded individuals in a 'mastermind' group to share, learn and help each other out. You can also follow CreateYourTale on **[Twitter](https://twitter.com/createyourtale)**
 
