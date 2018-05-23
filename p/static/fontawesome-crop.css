@@ -63,6 +63,12 @@ readers do not read off random characters that represent icons */
 .fa-medium-m:before {
   content: "\f3c7"; }
 
+.fa-quote-left:before {
+  content: "\f10d"; }
+
+.fa-sync:before {
+  content: "\f021"; }
+
 
 @font-face {
   font-family: 'Font Awesome 5 Brands';

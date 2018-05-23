@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115290738-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115290738-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- HTML Meta Tags -->
+	<title>Random Quote Machine Generator by David Nowak | CreateYourTale</title>
+  <meta name="description" content="My Random Quote Machine Generator project in the freeCodeCamp curriculum. Designed and coded by David Nowak. Founder of CreateYourTale.">
+
+  <!-- Google Tags -->
+  <meta itemprop="name" content="Random Quote Machine Generator by David Nowak | CreateYourTale">
+  <meta itemprop="description" content="My Random Quote Machine Generator project in the freeCodeCamp curriculum. Designed and coded by David Nowak. Founder of CreateYourTale.">
+  <meta itemprop="image" content="https://davidpnowak.com/images/sm-random-quote-machine.jpeg">
+
+  <!-- Social Tags -->
+  <meta property="og:url" content="https://davidpnowak.com/p/random-quote-generator-machine">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Random Quote Machine Generator by David Nowak | CreateYourTale">
+  <meta property="og:description" content="My Random Quote Machine Generator project in the freeCodeCamp curriculum. Designed and coded by David Nowak. Founder of CreateYourTale.">
+  <meta property="og:image" content="https://davidpnowak.com/images/sm-random-quote-machine.jpeg">
+  <meta property="og:image:width" content="1202">
+  <meta property="og:image:height" content="631">
+  <meta property="og:image:alt" content="Picture of David Nowak's Random Quote Generator Machine project from freeCodeCamp.">
+
+  <!-- Extra Twitter Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@davidpnowak">
+  <meta name="twitter:creator" content="@davidpnowak">
+  <!-- Meta Tags Generated via http://heymeta.com -->
+
+
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="static/fontawesome-crop.css">
+  <link rel="stylesheet" href="quotemachine/styles-min.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="text-center">FCC Random Quote Machine</h1>
+
+    <nav id="header-nav" class="navbar navbar-expand-md">
+      <div class ="container-fluid" id="navbar-header"> 
+
+        <!-- Brand -->
+        <div class="navbar-brand">
+          <a href="https://davidpnowak.com"><h2>David Nowak</h1></a>
+        </div> <!-- End of .navbar-brand class (Brand) -->
+        
+      </div> <!-- end of .container-fluid class & #navbar-header -->
+    </nav> <!-- end of #header-nav -->
+  </header>
+  <!--  END OF HEADER SECTION  -->
+
+
+  <!--  START OF BODY SECTION  -->
+    <section class="mx-auto" id="span-prop">
+      <i class="fas fa-quote-left" id="quote"></i>
+      <div class="tool-tip">
+        <i class="fas fa-sync top-right" id="new-quote" aria-hidden="true"></i>
+        <span class="tool-tip-text">Get a new Quote!</span>
+      </div>
+      <div class="tool-tip">
+        <a href="#" target="_blank" id="tweetUrl"><i class="fab fa-twitter top-right" id="twitter-share"></i></a>
+        <span class="tool-tip-text twitter-popup">Tweet this Quote!</span>
+      </div>
+      <p id="quote-text"></p>
+      <span id="author"></span>
+    </section>
+  
+    <section class="mx-auto" id="initial-prop">
+      <div class="text-center">
+        <button type="button" class="btn btn-outline-primary">Get Random Quote</button>
+      </div>
+    </section>
+  
+  <p class="text-center" id="footer">Designed by David Nowak</p>
+  <!--  END OF BODY SECTION  --> 
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+   <script src="../js/jquery-3.3.1.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="quotemachine/script.js"></script>
+</body>
+</html>
