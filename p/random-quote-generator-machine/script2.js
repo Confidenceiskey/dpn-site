@@ -1,5 +1,5 @@
 function overlay() {
-  $(".btn-outline-primary").replaceWith("<img class='spinny' src='../../images/spinner.gif' alt='loading' />").fadeIn();
+  $(".btn-outline-primary").replaceWith("<img class='spinny' src='../../images/ajax-loader.gif' alt='loading' />").fadeIn();
   
   //obtains random quote from lukePeavey on GitHub
   getQuotes(function(quotes) {
@@ -52,7 +52,7 @@ frontButton.addEventListener("click", overlay, false)
 
 //Add event listener for 'get a new quote' button click
 var newQuote = document.getElementById("new-quote");
-newQuote.addEventListener("click", generateQuote, false);
+newQuote.addEventListener("click", overlay, false);
 
 //Add event listener for 'tweeting' click
 var tweet = document.getElementById("twitter-share");
