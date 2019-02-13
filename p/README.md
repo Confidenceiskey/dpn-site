@@ -15,7 +15,7 @@ _The [freeCodeCamp curriculum](https://www.freecodecamp.org), is a website which
 
 ### Responsive Web Design Certificate (~300hrs)
 
-![Screenshot of my FCC Responsive Web Design Certificate](https://www.freecodecamp.org/certification/confidenceiskey/responsive-web-design "Screenshot of my FCC Responsive Web Design Certificate")
+![Screenshot of my FCC Responsive Web Design Certificate](https://davidpnowak.com/p/responsive-web-design-cert.png "Screenshot of my FCC Responsive Web Design Certificate")
 
 
 
@@ -30,7 +30,7 @@ _The [freeCodeCamp curriculum](https://www.freecodecamp.org), is a website which
 
 ### JavaScript Algorithms and Data Structures Certificate (~300hrs)
 
-![Screenshot of my FCC JavaScript Algorithms and Data Structures Certificate](https://www.freecodecamp.org/certification/confidenceiskey/javascript-algorithms-and-data-structures "Screenshot of my FCC JavaScript Algorithms and Data Structures Certificate")
+![Screenshot of my FCC JavaScript Algorithms and Data Structures Certificate](https://davidpnowak.com/p/js-algorithms-data-structures-cert.png "Screenshot of my FCC JavaScript Algorithms and Data Structures Certificate")
 
 
 
@@ -41,7 +41,7 @@ _The [freeCodeCamp curriculum](https://www.freecodecamp.org), is a website which
 - [ ] Build a Drum Machine
 - [ ] Build a JavaScript Calculator
 - [ ] Build a Pomodoro Clock
-
+resp
 
 ##
 
