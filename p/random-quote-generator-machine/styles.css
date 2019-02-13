@@ -95,18 +95,18 @@ html {
   right: 5%;
   left: 5%;
   min-height: 180px;
-  background-color: #0fbcf9;
+  background-color: #fff;
   border-radius: 1.5px;
 }
 #initial-prop button.btn.btn-outline-primary {
   margin-top: 69px;
   font-size: 1.2em;
-  color: #12708f;
-  border: 2px solid #12708f;
+  color: blue;
+  border: 2px solid blue;
 }
 #initial-prop button.btn.btn-outline-primary:hover {
   color: #fff;
-  background-color: #3c8da6;
+  background-color: dodgerblue;
 }
 
 img.spinny {
