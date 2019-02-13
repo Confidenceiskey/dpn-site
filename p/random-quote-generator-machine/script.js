@@ -1,5 +1,5 @@
 function overlay() {
-  $(".btn-outline-primary").replaceWith("<div><img class='spinny' src='../../images/spinner.gif' alt='loading' /><h3>API is currently broken</h3></div>").fadeIn();
+  $(".btn-outline-primary").replaceWith("<img class='spinny' src='../../images/spinner.gif' alt='loading' />").fadeIn();
   
   //obtains 100 random quotes from talaikis
   getQuotes(function(quotes) {
