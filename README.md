@@ -16,8 +16,8 @@ It is a place where everyone helps each other along their journeys to creating a
 
 ### freeCodeCamp (FCC) project links:
 [Portfolio Website](https://davidpnowak.com) - A one page, scrollable portfolio website that I made.    
-[FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app) - An app that shows you your local weather.  
-[Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine.html) - Generate a random quote.
+[FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app/) - An app that shows you your local weather.  
+[Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.
 
 ...
 
@@ -42,7 +42,6 @@ It is a place where everyone helps each other along their journeys to creating a
 
 **Random Quote Machine Requirements**
 - Able to click on a button and retrieve a randomly generated quote
-- Connects to a quote API which obtains 100 randomly generated quotes, in order to avoid making constant API requests
 - Shows the user both the quote and the author's name 
 - The user can tweet any quote that they like
 
