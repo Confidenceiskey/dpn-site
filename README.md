@@ -15,6 +15,9 @@ It is a place where everyone helps each other along their journeys to creating a
 ##  
 
 ### Project links:
+
+[freeCodeCamp Projects](https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p) - A reference page to my progress on freeCodeCamp and links to my projects.          
+     
 [Portfolio Website](https://davidpnowak.com) - A one page, scrollable portfolio website that I made.    
 [FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app/) - An app that shows you your local weather.  
 [Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.       
