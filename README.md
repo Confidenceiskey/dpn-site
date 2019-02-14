@@ -2,7 +2,7 @@
 
 I have complied a list of links to help you get to what you are looking for quicker. As my site grows, I will add more things to this readme file.
 
-### If you want to see the live version of my website, please click on "Portfolio Website", under pprojects!
+### If you want to see the live version of my website, please click on "Portfolio Website", under projects!
 
 If you want to connect, add me on:     
 **[Twitter](https://twitter.com/davidpnowak)**    
@@ -17,7 +17,7 @@ It is a place where everyone helps each other along their journeys to creating a
 ### Project links:
 [Portfolio Website](https://davidpnowak.com) - A one page, scrollable portfolio website that I made.    
 [FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app/) - An app that shows you your local weather.  
-[Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.
+[Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.       
 [Robofriends](https://confidenceiskey.github.io/robofriends/) - A React App that lets you search through a card list of robots
 
 ...
