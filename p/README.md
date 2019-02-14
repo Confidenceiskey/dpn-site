@@ -53,7 +53,6 @@ resp
 - [ ] Build a JavaScript Calculator
 - [x] [Show the Local Weather](https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p/fcc-weather-app)
 - [ ] Use the Twitch.tv JSON API
-- [ ] Use the Twitch.tv JSON API
 - [x] [Build a Tribute Page](https://codepen.io/Confidenceiskey/pen/dpvKLW)
 - [ ] Build a Wikipedia Viewer
 - [ ] Build a Tic Tac Toe Game
