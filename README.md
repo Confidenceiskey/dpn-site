@@ -2,7 +2,7 @@
 
 I have complied a list of links to help you get to what you are looking for quicker. As my site grows, I will add more things to this readme file.
 
-### If you want to see the live version of my website, please click on "Portfolio Website", under freeCodeCamp projects!
+### If you want to see the live version of my website, please click on "Portfolio Website", under pprojects!
 
 If you want to connect, add me on:     
 **[Twitter](https://twitter.com/davidpnowak)**    
@@ -10,14 +10,15 @@ If you want to connect, add me on:
 
 If you are an aspiring online entrepreneur, digital nomad, blogger or someone pursuing an online business, you might want to check out my **CreateYourTale** community. You can find out more information about it on my portfolio website.
 
-It is a place where everyone helps each other along their journeys to creating a successful online business. This is achieved by being surrounded with other motivated, like-minded individuals in a 'mastermind' group to share, learn and help each other out. You can also follow CreateYourTale on **[Twitter](https://twitter.com/createyourtale)**
+It is a place where everyone helps each other along their journeys to creating a successful online business. This is achieved by being surrounded with other motivated, like-minded individuals in a 'mastermind' group to share, learn and help each other out.
 
 ##  
 
-### freeCodeCamp (FCC) project links:
+### Project links:
 [Portfolio Website](https://davidpnowak.com) - A one page, scrollable portfolio website that I made.    
 [FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app/) - An app that shows you your local weather.  
 [Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.
+[Robofriends](https://confidenceiskey.github.io/robofriends/) - A React App that lets you search through a card list of robots
 
 ...
 
@@ -44,6 +45,13 @@ It is a place where everyone helps each other along their journeys to creating a
 - Able to click on a button and retrieve a randomly generated quote
 - Shows the user both the quote and the author's name 
 - The user can tweet any quote that they like
+
+...
+
+**Robofriends Requirements**
+- Can see 10 random robot users, each with different pictures, names and emails
+- Able to type in a search bar, to see the robot cards get filtered out
+- The user can scroll through the robot cards without losing visibility of the search bar
 
 
 ## 
