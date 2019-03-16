@@ -8,10 +8,6 @@ If you want to connect, add me on:
 **[Twitter](https://twitter.com/davidpnowak)**    
 **[Medium](https://medium.com/@davidpnowak)**
 
-If you are an aspiring online entrepreneur, digital nomad, blogger or someone pursuing an online business, you might want to check out my **CreateYourTale** community. You can find out more information about it on my portfolio website.
-
-It is a place where everyone helps each other along their journeys to creating a successful online business. This is achieved by being surrounded with other motivated, like-minded individuals in a 'mastermind' group to share, learn and help each other out.
-
 ##  
 
 ### Project links:
@@ -22,6 +18,8 @@ It is a place where everyone helps each other along their journeys to creating a
 [FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app/) - An app that shows you your local weather.  
 [Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.       
 [Robofriends](https://confidenceiskey.github.io/robofriends/) - A React App that lets you search through a card list of robots
+
+[Tic Tac Toe](https://confidenceiskey.github.io/tic-tac-toe/) - The tic tac toe game built in React
 
 ...
 

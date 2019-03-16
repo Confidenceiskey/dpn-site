@@ -55,5 +55,5 @@ resp
 - [ ] Use the Twitch.tv JSON API
 - [x] [Build a Tribute Page](https://codepen.io/Confidenceiskey/pen/dpvKLW)
 - [ ] Build a Wikipedia Viewer
-- [ ] Build a Tic Tac Toe Game
+- [x] [Build a Tic Tac Toe Game](https://confidenceiskey.github.io/tic-tac-toe/)
 - [ ] Build a Simon Game
