@@ -474,13 +474,13 @@ summary, details p {
   }
 }
 
-/* Button color for Codepen */
-#codepen {
+/* Button color for Github & codepen */
+.github, .codepen  {
   background-color: black;
   border: 1px solid grey;
 }
 
-#codepen:hover {
+.github:hover, .codepen:hover {
   background-color: #343434;
 }
 /*** END OF TARGETING SIZING WITHIN CARD/PROJECT BOX FOR SECTION  ***/
