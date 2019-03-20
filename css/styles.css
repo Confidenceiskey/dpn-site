@@ -480,7 +480,7 @@ summary, details p {
   border: 1px solid grey;
 }
 
-.github:hover, .codepen:hover {
+.github:hover, .codepen:hover, #projects-box .github:active, #projects-box .codepen:active {
   background-color: #343434;
 }
 /*** END OF TARGETING SIZING WITHIN CARD/PROJECT BOX FOR SECTION  ***/
