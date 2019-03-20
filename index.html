@@ -201,11 +201,29 @@
     <div class="container-fluid">
       <h1 id="projects">Projects</h1>
     </div>
-    
+
     <!--   START OF BOX 1 content   -->
     <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
       <section class="project-content">
         <div class="card" id="box1">
+          <img class="card-img-top" src="images/img7.jpeg" alt="Tic Tac Toe Game">
+          <div class="card-body">
+            <h5 class="card-title">Tic Tac Toe (React)</h5>
+            <details>
+              <summary>Click for Description</summary>
+              <p class="card-text">Built an unbeatable game of Tic Tac Toe using the minimax algorithm in React.</p>
+            </details>
+            <a href="https://github.com/Confidenceiskey/tic-tac-toe" target='_blank' class="btn btn-primary btn-block" class="github" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
+            <a href="https://confidenceiskey.github.io/tic-tac-toe/" class="btn btn-success btn-block" role="button">Live Version</a>
+          </div> <!-- end of .card-body class content -->
+        </div> <!-- end of .card class (#box1) content -->
+      </section> <!-- end of section .project-content class content -->
+    </div> <!-- end of container class (#box1) content -->
+    
+    <!--   START OF BOX 2 content   -->
+    <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+      <section class="project-content">
+        <div class="card" id="box2">
           <img class="card-img-top" src="images/img1.jpeg" alt="Screenshot of David Nowak's personal website">
           <div class="card-body">
             <h5 class="card-title">DavidpNowak - My Personal Website</h5>
@@ -213,17 +231,20 @@
               <summary>Click for Description</summary>
               <p class="card-text">Created (from scratch) my own website for both myself and to complete FCC's portfolio website assignment.</p>
             </details>
-            <a href="https://codepen.io/Confidenceiskey/full/KQZKZz/" target='_blank' class="btn btn-primary btn-block" id="codepen" role="button"><i class="fab fa-codepen"></i> &nbsp; Codepen</a> 
+            <a href="https://codepen.io/Confidenceiskey/full/KQZKZz/" target='_blank' class="btn btn-primary btn-block" class="codepen" role="button"><i class="fab fa-codepen"></i> &nbsp; Codepen</a> 
             <a href="https://davidpnowak.com" class="btn btn-success btn-block" role="button">Website</a>
           </div> <!-- end of .card-body class content -->
-        </div> <!-- end of .card class (#box1) content -->
+        </div> <!-- end of .card class (#box2) content -->
       </section> <!-- end of section .project-content class content -->
-    </div> <!-- end of container class (#box1) content -->
+    </div> <!-- end of container class (#box2) content -->
+
+    <!--   Fixes content wrapping issue on xs screen sizes (insert after every 2nd box)   -->
+    <div class="clearfix visible-xs-block"></div>
           
-    <!--   START OF BOX 2 content   -->
+    <!--   START OF BOX 3 content   -->
     <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
       <section class="project-content">
-        <div class="card" id="box2">
+        <div class="card" id="box3">
           <img class="card-img-top" id="networkrgenius" src="images/img2.jpeg" alt="Demo YouTube video clip of a prototype app called NetworkrGenius!">
           <div class="card-body">
             <h5 class="card-title">Networkr Genius - Demo App of Prototype</h5>
@@ -233,17 +254,17 @@
             </details>
             <a href="https://youtu.be/nM6UsXT9FaY" target='_blank' class="btn btn-danger btn-block" role="button"><i class="fab fa-youtube"></i> &nbsp; YouTube</a>
           </div> <!-- end of .card-body class content -->
-        </div> <!-- end of card class (#box2) content -->
+        </div> <!-- end of card class (#box3) content -->
       </section> <!-- end of section .project-content class -->
-    </div> <!-- end of container class (box2) content -->   
-    
-    <!--   Fixes content wrapping issue on xs screen sizes (insert after every 2nd box)   -->
-    <div class="clearfix visible-xs-block"></div>
+    </div> <!-- end of container class (box3) content -->   
+
+    <!--   Fixes content wrapping issue on small screen 	sizes (insert after every 3rd box)   -->
+    <div class="clearfix visible-sm-block"></div>
           
-    <!--   START OF BOX 3 content   -->
+    <!--   START OF BOX 4 content   -->
     <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
       <section class="project-content">
-        <div class="card" id="box3">
+        <div class="card" id="box4">
           <img class="card-img-top" src="images/img3.jpeg" alt="Screenshot of FCC Local Weather App done by David Nowak">
           <div class="card-body">
             <h5 class="card-title">FCC Local Weather App</h5>
@@ -258,21 +279,20 @@
               <strong>Please note that due to a bug in the FCC weather API. Sometimes the weather will show up as 28°C and in Shuzenji, JP. This is the fault of the API I am using.</strong> 
               </p>
             </details>
-            <a href="https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p/fcc-weather-app" target='_blank' class="btn btn-primary btn-block" id="codepen" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
+            <a href="https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p/fcc-weather-app" target='_blank' class="btn btn-primary btn-block" class="github" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
             <a href="https://davidpnowak.com/p/fcc-weather-app/" class="btn btn-success btn-block" role="button">Live Version</a>
           </div> <!-- end of .card-body class content -->
-        </div> <!-- end of .card class (#box3) content -->
+        </div> <!-- end of .card class (#box4) content -->
       </section> <!-- end of section .project-content class -->
-    </div> <!-- end of container class (box3) content -->   
+    </div> <!-- end of container class (box4) content -->   
+
+    <!--   Fixes content wrapping issue on xs, large & medium screen sizes (insert after every 4th box)   -->
+    <div class="clearfix visible-lg-block visible-md-block visible-xs-block"></div>
     
-    <!--   Fixes content wrapping issue on small screen sizes (insert after every 3rd box)   -->
-    <div class="clearfix visible-sm-block"></div>
-    
-    
-    <!--   START OF BOX 4 content   -->
+    <!--   START OF BOX 5 content   -->
     <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
       <section class="project-content">
-        <div class="card" id="box4">
+        <div class="card" id="box5">
           <img class="card-img-top" src="images/img4.jpeg" alt="Screenshot of finished War card game step-by-step tutorial">
           <div class="card-body">
             <h5 class="card-title">War Card Game - Demo of App</h5>
@@ -282,17 +302,14 @@
             </details>
             <a href="https://youtu.be/kdTf3TjmuA0" target='_blank' class="btn btn-danger btn-block" role="button"><i class="fab fa-youtube"></i> &nbsp; YouTube</a>
           </div> <!-- end of .card-body class content -->
-        </div> <!-- end of .card class (#box4) content -->
+        </div> <!-- end of .card class (#box5) content -->
       </section> <!-- end of section .project-content class -->
-    </div> <!-- end of container class (box4) content --> 
-    
-     <!--   Fixes content wrapping issue on xs, large & medium screen sizes (insert after every 4th box)   -->
-    <div class="clearfix visible-lg-block visible-md-block visible-xs-block"></div>
+    </div> <!-- end of container class (box5) content --> 
    
-    <!--   START OF BOX 5 content   -->
+    <!--   START OF BOX 6 content   -->
     <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
       <section class="project-content">
-        <div class="card" id="box5">
+        <div class="card" id="box6">
           <img class="card-img-top" src="images/img5.jpeg" alt="Screenshot of Random Quote Generator Machine done by David Nowak">
           <div class="card-body">
             <h5 class="card-title">Random Quote Generator Machine</h5>
@@ -304,17 +321,20 @@
               <strong>Technologies used: </strong>HTML, CSS, JavaScript &amp; JQuery 
               </p>
             </details>
-            <a href="https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p/random-quote-generator-machine" target='_blank' class="btn btn-primary btn-block" id="codepen" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
+            <a href="https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p/random-quote-generator-machine" target='_blank' class="btn btn-primary btn-block" class="github" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
             <a href="https://davidpnowak.com/p/random-quote-generator-machine/" class="btn btn-success btn-block" role="button">Live Version</a>
           </div> <!-- end of .card-body class content -->
-        </div> <!-- end of .card class (#box5) content -->
+        </div> <!-- end of .card class (#box6) content -->
       </section> <!-- end of section .project-content class -->
-    </div> <!-- end of container class (box5) content --> 
+    </div> <!-- end of container class (box6) content --> 
 
-    <!--   START OF BOX 6 content   -->
+    <!--   Fixes content wrapping issue on xs screen sizes (insert after every 2nd & 3rd boxes)   -->
+    <div class="clearfix visible-xs-block visible-sm-block"></div>
+
+    <!--   START OF BOX 7 content   -->
     <div class="container col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-3">
       <section class="project-content">
-        <div class="card" id="box6">
+        <div class="card" id="box7">
           <img class="card-img-top" src="images/img6.jpeg" alt="Screenshot of Robofriends App done by David Nowak">
           <div class="card-body">
             <h5 class="card-title">Robofriends App</h5>
@@ -326,12 +346,12 @@
               <strong>Technologies used: </strong>HTML, CSS, JavaScript &amp; React 
               </p>
             </details>
-            <a href="https://github.com/Confidenceiskey/robofriends/tree/master" target='_blank' class="btn btn-primary btn-block" id="codepen" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
+            <a href="https://github.com/Confidenceiskey/robofriends/tree/master" target='_blank' class="btn btn-primary btn-block" class="github" role="button"><i class="fab fa-github"></i> &nbsp; GitHub</a> 
             <a href="https://confidenceiskey.github.io/robofriends/" class="btn btn-success btn-block" role="button">Live Version</a>
           </div> <!-- end of .card-body class content -->
-        </div> <!-- end of .card class (#box6) content -->
+        </div> <!-- end of .card class (#box7) content -->
       </section> <!-- end of section .project-content class -->
-    </div> <!-- end of container class (box6) content --> 
+    </div> <!-- end of container class (box7) content --> 
     
   </div> <!-- End of projects-box content -->
   <!--   END OF PROJECTS CONTENT -->
