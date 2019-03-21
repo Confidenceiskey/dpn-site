@@ -10,16 +10,28 @@ If you want to connect, add me on:
 
 ##  
 
-### Project links:
+### Course Projects:
 
-[freeCodeCamp Projects](https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p) - A reference page to my progress on freeCodeCamp and links to my projects.          
+[freeCodeCamp Projects](https://github.com/Confidenceiskey/dpn-site/tree/gh-pages/p) - A reference page to my progress on freeCodeCamp and links to my projects. 
+
+### Project Links:         
      
+[Tic Tac Toe](https://confidenceiskey.github.io/tic-tac-toe/) - The tic tac toe game built in React
+
 [Portfolio Website](https://davidpnowak.com) - A one page, scrollable portfolio website that I made.    
+
 [FCC Local Weather App](https://davidpnowak.com/p/fcc-weather-app/) - An app that shows you your local weather.  
 [Random Quote Machine](https://davidpnowak.com/p/random-quote-generator-machine/) - Generate a random quote.       
 [Robofriends](https://confidenceiskey.github.io/robofriends/) - A React App that lets you search through a card list of robots
 
-[Tic Tac Toe](https://confidenceiskey.github.io/tic-tac-toe/) - The tic tac toe game built in React
+...
+
+**Tic Tac Toe Requirements**
+-The user is able to choose which side they want to play as (either 'X' or 'O')
+-The game restarts as soon as it is over
+-The user is able to play a game of tic tac toe with the computer
+-The game's score is kept
+-Bonus: It is impossible to beat the computer
 
 ...
 
