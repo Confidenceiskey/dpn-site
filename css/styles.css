@@ -810,6 +810,10 @@ label {
   font-size: 125%;
 }
 
+#honeypot {
+  display: none;
+}
+
 /* END OF CONTACT SECTION */
 /* END OF CONTACT SECTION */
 

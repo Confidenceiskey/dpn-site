@@ -481,6 +481,10 @@
     </div>
     
     <form class="needs-validation" id="commentForm" method="POST" action="https://script.google.com/macros/s/AKfycbwPp-W6KjOyMWf2Qih9lqFGhmKHCquRrq2cm2vjnyNvMH6wIB8/exec" novalidate>
+
+			<!--input id must be honeypot or else it wont work-->
+		  <label class="sr-only">Keep this field blank</label>
+		  <input id="honeypot" type="text" name="honeypot" value="" />
       
       <div class="form-row">
         <!--   START OF FORM 1 content   -->
