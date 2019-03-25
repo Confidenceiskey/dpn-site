@@ -78,11 +78,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   event.preventDefault();           // we are submitting via xhr below
   var data = getFormData();         // get the values submitted in the form
 
-  if (validateHuman(data.honeypot)) {  //if form is filled, form will not be submitted
-    return false;
-  }
-
-  if( !validEmail(data.email) || !validFirstname(data.firstname) || !validLastname(data.lastname) || !validMessage(data.message) || !validCheckbox(data.spam_check)) {   // if anything isn't valid show error
+  if( !validEmail(data.email) || !validFirstname(data.firstname) || !validLastname(data.lastname) || !validMessage(data.message) || !validCheckbox(data.spam_check) || validateHuman(data.honeypot)) {   // if anything isn't valid show error
     return false;
   } else {
     $("#commentForm").replaceWith("<div class='text-center' id='loadingGif2'><img src='images/ajax-loader.gif' alt='loading' /></div>").fadeIn();
