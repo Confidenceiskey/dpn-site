@@ -27,7 +27,9 @@ $(function() {
   
   //If error, alert user ...unable to obtain temperature
   function errorCall(error) {
-    window.alert("Unable to retrieve weather! This might be due to having your location setting turned off on your mobile device or from denying location access on desktop." + "{Error message: " + error.message + "}");
+    window.alert("Unable to retrieve weather! This might be due to having your location setting turned off on your mobile device " +
+     "or from denying location access on desktop. Please note that if you are using FireFox, that there is currently a bug with " +
+     "geolocation. Please use a different browser! \n\n" + " {Error message: " + error.message + "}");
     $("#weather-icon").html('<h2>Unable to retrieve weather!</h2>');
   }
   
