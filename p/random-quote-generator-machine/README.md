@@ -21,6 +21,6 @@ I first started by designing the UI and got it to work with HTML and CSS. Once I
 
 #### Preview
 
-Check out the [live version](https://davidpnowak.com/p/random-quote-generator-machine/)
+Check out my live [random quote generator machine](https://davidpnowak.com/p/random-quote-generator-machine/)!
 
 ![Screenshot of the Random Quote Machine for freeCodeCamp](https://davidpnowak.com/p/random-quote-generator-machine/quote-machine-preview.png "Screenshot of my Random Quote Generator Machine")
